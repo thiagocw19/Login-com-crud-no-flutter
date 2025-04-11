@@ -17,7 +17,7 @@ class TelaInicial extends StatelessWidget {
               child: MaterialButton(
                 minWidth: double.infinity,
                 onPressed: () {
-                  // Adicione funcionalidade aqui, se necessário
+                  // adicionar a rota para cadastro de usuário (em andamento)
                 },
                 child: Text('Cadastrar Usuário'),
                 color: Colors.amber,
@@ -30,7 +30,7 @@ class TelaInicial extends StatelessWidget {
               child: MaterialButton(
                 minWidth: double.infinity,
                 onPressed: () {
-                  // Adicione funcionalidade aqui, se necessário
+                  // adicionar a rota para cadastro de Produto (em andamento)
                 },
                 child: Text('Cadastrar Produto'),
                 color: Colors.amber,
@@ -43,7 +43,7 @@ class TelaInicial extends StatelessWidget {
               child: MaterialButton(
                 minWidth: double.infinity,
                 onPressed: () {
-                  // Adicione funcionalidade aqui, se necessário
+                  // adicionar a rota para cadastro de cliente (em andamento)
                 },
                 child: Text('Cadastrar Cliente'),
                 color: Colors.amber,

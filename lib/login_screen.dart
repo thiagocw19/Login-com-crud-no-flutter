@@ -32,16 +32,16 @@ class LoginScreen extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 50),
                       child: TextFormField(
-                        keyboardType: TextInputType.emailAddress,
+                        keyboardType: TextInputType.name,
                         decoration: InputDecoration(
-                          labelText: 'Email',
-                          hintText: 'Entre com seu email',
+                          labelText: 'Nome',
+                          hintText: 'Entre com seu nome',
                           prefixIcon: Icon(Icons.email),
                           border: OutlineInputBorder(),
                         ),
                         onChanged: (String value) {},
                         validator: (value) {
-                          return value!.isEmpty ? 'Preencha o seu email' : null;
+                          return value!.isEmpty ? 'Preencha o seu nome' : null;
                         },
                       ),
                     ),
