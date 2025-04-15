@@ -7,6 +7,10 @@ class LoginScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final GlobalKey<FormState> formKey = GlobalKey<FormState>();
 
+    void Validacao() {
+      // Lógica para login (em andamento)
+    }
+
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(title: Text('Login')),
