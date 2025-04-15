@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:trabalhofinal/tela_inicial.dart';
-import 'login_screen.dart';
+import 'package:trabalhofinal/views/tela_clientes.dart';
+import 'package:trabalhofinal/views/tela_inicial.dart';
+import 'package:trabalhofinal/views/tela_produtos.dart';
+import 'views/login_screen.dart';
 
 void main() {
   runApp(const MainApp());
@@ -16,6 +18,8 @@ class MainApp extends StatelessWidget {
       routes: {
         'HOME': (context) => LoginScreen(),
         'INICIO': (context) => TelaInicial(),
+        'PROD': (context) => TelaProdutos(),
+        'CLIENTE': (context) => TelaClientes(),
       },
     );
   }
